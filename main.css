@@ -16,19 +16,23 @@ body {
   background-color: rgb(218, 111, 137);
   padding: 20px;
 }
+
 .nav-link,
 .navbar-brand {
   color: #fff;
   cursor: pointer;
 }
+
 .nav-link {
   margin-right: 1em !important;
 }
+
 .nav-link:hover {
   background-color: #ff94a6;
   border-radius: 15px;
   color: white;
 }
+
 .navbar-collapse {
   justify-content: flex-end;
 }
@@ -72,6 +76,7 @@ nav li a {
   font-size: 36px;
   font-weight: bold;
   color: rgb(206, 73, 106);
+  padding: 20px;
 }
 
 .about-me p {
@@ -353,8 +358,11 @@ body p {
 }
 
 .copyright p {
+  margin: 5px;
   letter-spacing: 0px;
   word-spacing: 0px;
+  color: white;
+  opacity: 0.75;
 }
 
 .skills {
@@ -534,4 +542,8 @@ table.test-table thead th {
 
 #head2 {
   border-top-right-radius: 20px;
+}
+
+.logo {
+  width: 50px;
 }
