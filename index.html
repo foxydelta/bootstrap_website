@@ -196,17 +196,10 @@
         crossorigin="anonymous"
       ></script>
       <script src="bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="work.html">Work</a></li>
-        <li><a href="testimonials.html">Testimonials</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-
-      <div class="copyright">
-        <p>&copy; Copyright 2023 Victoria Price. All rights reserved.</p>
-      </div>
+      <iframe
+        src="footer.html"
+        onload="this.insertAdjacentHTML('afterend', (this.contentDocument.body||this.contentDocument).innerHTML);this.remove()"
+      ></iframe>
     </footer>
   </body>
 </html>
