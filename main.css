@@ -570,3 +570,8 @@ table.test-table thead th {
 .work-item h3 {
   font-size: 18px;
 }
+
+.required {
+  color: red;
+  font-weight: bold;
+}
